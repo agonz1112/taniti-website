@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taniti Island</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <header>
+    <div class="logo-box">
+    <img src="images/logo.png" alt="Taniti Island Logo" class="logo">
+    </div>
+    <nav>
+            <a href="index.html">Home</a>
+            <a href="explore.html">Explore</a>
+            <a href="lodging.html">Lodging</a>
+            <a href="transportation.html">Transportation</a>
+            <a href="traveltips.html">Travel Tips & FAQs</a>
+            
+    </nav>
+        <a href="book.html" class="book-btn">Book Now</a>
+    </header>
+
+    <main class="booking-main">
+
+        <section class="booking-header">
+            <h1>Book Your Taniti Trip</h1>
+            <p>
+                Use this form to request information about
+                lodging, activities, transportation, or
+                a complete vacation package.
+            </p>
+        </section>
+
+    <section class="booking-content">
+        <div class="booking-info">
+            <h2>What Can You Book?</h2>
+
+            <div class="booking-option">
+                <h3>Lodging</h3>
+                <p>Choose from resorts, hotels, bed and breakfasts, or hostels.</p>
+            </div>
+            
+            <div ckass="booking-option">
+                <h3>Activities</h3>
+                <p>Book volcano tours, rainforest hikes, snorkeling, and more</p>
+                
+            </div>
+
+            <div class="booking-option">
+                <h3>Transportation</h3>
+                <p>Request airport transportation, rental cars, taxis, or bike rentals.</p>
+
+            </div>
+        </div>
+
+        <form class="booking-form">
+
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Enter your full name">
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="Enter your email">
+
+            <label for="booking-type">Booking Type</label>
+            <select id="booking-type">
+                <option>Select an option</option>
+                <option>Lodging</option>
+                <option>Activity</option>
+                <option>Transportation</option>
+                <option>Complete Trip Package</option>
+            </select>
+
+            <label for="dates">Travel Dates</label>
+            <input type="text" id="dates" placeholder="Example: June 10 - June 17">
+
+            <label for="guests">Number of Guests</label>
+            <input type="number" id="guests" placeholder="Example: 4">
+
+            <label for="message">Additional Details</label>
+            <textarea id="message" rows="5" placeholder="Tell us what you would like to book"></textarea>
+
+            <button type="submit">Submit Booking Request</button>
+
+        </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Taniti Tourism | Contact Us | Social Media | Copyright 2026</p>
+    </footer>
+    </body>
+    </html>
